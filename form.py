@@ -1,7 +1,7 @@
 import tkinter
 from tkinter import messagebox
 
-if __name__=='__main__':
+def main():
     window=tkinter.Tk()
     frame=tkinter.Frame()
     frame.configure(bg='#F03A47')
@@ -31,4 +31,6 @@ if __name__=='__main__':
     button.grid(row=3,column=0,columnspan=2)
     frame.pack()
     window.mainloop()
+if __name__=='__main__':
+    main()
     
